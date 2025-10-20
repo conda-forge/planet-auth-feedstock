@@ -1,5 +1,5 @@
 {% set name = "planet-auth" %}
-{% set version = "2.2.0" %}
+{% set version = "2.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/planet_auth-{{ version }}.tar.gz
-  sha256: 0f1d118b99c9117afcf94157cfd7d87665b1f685eab7bfe02ed7b0fda49bfa89
+  sha256: 6d82ce93a8011beb13eb65a6bb38b32891208e82523177282644dec12b95126e
 
 build:
   entry_points:
